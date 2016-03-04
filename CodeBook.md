@@ -45,6 +45,11 @@ Following variables are presented with their mean value and standard deviations.
 * BodyGyroscopeTimeMagnitude
 * BodyGyroscopeTimeJerkMagnitude
 
+## How to run run_analysis.R script:
+* Make sure that the current working directory is set to the directory where 
+all file(s) are available. e.g. ...\project\data\UCI HAR Dataset
+* Simply run the script which will create the dataset file tidydata.txt
+in working directory
 ## Transformations:
 Following are salient features of the transformation performed on the original dataset.
 * Read the activities and assign labels 
